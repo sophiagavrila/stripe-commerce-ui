@@ -8,4 +8,9 @@ export class Product {
   unitsInStock: number;
   dateCreated: Date;
   lastUpdate: Date;
+
+  /**
+   * in order to get rid of the compilation error of "must initialize all properties",
+   * go to tsconfig.json > set "strict" to false under "compilerOptions"
+   */
 }
